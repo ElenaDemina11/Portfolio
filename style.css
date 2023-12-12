@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    background-color: #1D2834;
+    font-size: 30px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    color: #FFF;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.first-block {
+    background-image: url("./Img/BG.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    background-color: rgba(46, 57, 69, 0.4);
+    margin: 0;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    min-height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 0.6rem;
+    z-index: 3;
+}
+
+a:hover {
+    color: #E6E054;
+}
+
+.main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+
+.my-name {
+    margin: 0;
+    color: #E6E054;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-style: normal;
+    align-items: start;
+
+}
+
+.about {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40vw;
+    padding-right: 10vw;
+}
+
+.about2 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40vw;
+    padding-right: 20vw;
+}
+
+.second-block {
+    background-image: url("./Img/Subtract1.png");
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0;
+
+}
+
+.right-block {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 100px;
+    padding-left: 100px;
+
+
+}
+
+.left-block {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+
+}
+
+.vector1 {
+    padding-left: 100px;
+}
+
+
+.description {
+    margin: 0;
+
+}
+
+.photo {
+    margin: 0;
+    margin-top: 160px;
+
+}
+
+.main-btn {
+    color: #1D2834;
+    font-style: 'PT Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #E6E054;
+    width: 370px;
+    height: 60px;
+    border: none;
+}
+
+
+.third-block {
+    background-image: url("./Img/Subtract2.png");
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0;
+    top: 0px;
+    padding-left: 250px;
+
+}
+
+
+.vector2 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.skillsblock {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-left: 200px;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+
+}
+
+.skills {
+
+
+    display: grid;
+    grid-row: 2/8;
+    grid-column: 2/8;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.myskills {
+    font-size: 0.6rem;
+}
+
+.fourth-block{
+    display: flex;
+    flex-direction: column;
+    margin: 20vw;
+    justify-content: space-around;
+}
+
+.slider {
+    width: 1000px;
+    height: 480px;
+    position: absolute;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 50px;
+
+
+}
+
+.slider-img.active {
+    opacity: 1;
+}
+
+.controlls {
+    opacity: 1;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.fifth-block{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(46, 57, 69, 0.4);
+    border-radius: 200px 200px 0 0;
+    border: #151E26 solid 5px;
+    
+    
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    margin: 0;
+    padding: 0;
+}
+
+.input-field{
+    height: 45px;
+    width: 384px;
+    background-color: #1D2834;
+    border-radius: 20px;
+    border: #ffffff solid 2px;
+}
+
+.send-btn{
+    color: #ffffff;
+    font-style: 'PT Sans', sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #e6e15400;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border: #E6E054 solid 2px;
+}
